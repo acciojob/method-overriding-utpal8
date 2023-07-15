@@ -18,7 +18,12 @@ package com.driver;
     public class Main {
         public static void main(String[] args) {
             // Step 3: Create an object of class B and call the method meth from class A
-            B objB = new B();
-            System.out.println(objB.meth());  // Output: Method is overridden in Extended class B
+            //B objB = new B();
+            //System.out.println(objB.meth());  // Output: Method is overridden in Extended class B
+            B obj = new B();
+            obj.meth();
+
+            B obj1 = new B();
+            obj1.meth();
         }
     }
